@@ -1,0 +1,188 @@
+#include "dialogs\parentclasses.hpp"
+#include "dialogs\playerlist.hpp"
+#include "dialogs\item_menu.hpp"
+#include "dialogs\atm.hpp"
+#include "dialogs\carshop.hpp"
+#include "dialogs\itemshop.hpp"
+#include "dialogs\wholesale.hpp"
+#include "dialogs\factory.hpp"
+#include "dialogs\factorywork.hpp"
+#include "dialogs\factorywage.hpp"
+#include "dialogs\trunk.hpp"
+#include "dialogs\joblist.hpp"
+#include "dialogs\garage.hpp"
+#include "dialogs\searchdialog.hpp"
+#include "dialogs\civsearchmenu.hpp"
+#include "dialogs\copsearchmenu.hpp"
+#include "dialogs\shop.hpp"
+#include "dialogs\shop_nosell.hpp"
+#include "dialogs\keys_menu.hpp"
+#include "dialogs\char_roll.hpp"
+#include "dialogs\elections.hpp"
+#include "dialogs\gov_menu.hpp"
+#include "dialogs\wantedlist.hpp"
+#include "dialogs\wantedset.hpp"
+#include "dialogs\gangmenu.hpp"
+#include "dialogs\gangcreate.hpp"
+#include "dialogs\ganglist.hpp"
+#include "dialogs\paintjob.hpp"
+#include "dialogs\shop_new.hpp"
+#include "dialogs\carbomb_speed.hpp"
+#include "dialogs\pult_du.hpp"
+#include "dialogs\respawn.hpp"
+#include "dialogs\admintool.hpp"
+
+class CUPS {
+
+	class Terrains {
+	
+		//DisableLampCheck = 1;
+	
+	};
+	
+};
+
+
+class RscTitles
+{
+	#include "dialogs\ui.hpp"
+	#include "dialogs\nots.hpp"
+	
+	class RscTaskForceHint
+	{
+		idd = 30040;
+		onLoad = "uiNamespace setVariable ['TFAR_Hint_Display', _this select 0]";
+		onUnload = "uiNamespace setVariable ['TFAR_Hint_Display', displayNull]";
+		fadeIn=0.2;
+		fadeOut=0.2;
+		movingEnable = false;
+		duration = 10e10;
+		name = "RscTaskForceHint"; 
+		class controls
+		{
+			class InformationText: RscStructuredText
+			{
+				idc = 1100;
+				text = "";
+				x = 0.85 * safezoneW + safezoneX;
+				y = 0.7 * safezoneH + safezoneY;
+				w = 0.15 * safezoneW;
+				h = 0.1 * safezoneH;
+				colorText[] = {1,1,1,1};
+				colorBackground[] = {0.1,0.1,0.1,0.5};
+				sizeEx = 1;
+				size = "( ( ( ((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * (0.55 / (getResolution select 5)))";
+			};
+		};
+	};
+	
+};
+
+class CfgDebriefing
+{
+
+	class police_no
+	{
+		title = "Вы в розыске!";
+		subtitle = "Упс...";
+		description = "Вы не можете играть за силы правопорядка находясь в розыске. Сначала сдайтесь полиции или умрите ролевой смертью.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+
+	class police_no2
+	{
+		title = "Слишком мало RPP!";
+		subtitle = "Упс...";
+		description = "Вам нужно минимум 50 RPP чтобы играть за полицию.";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	
+};
+
+class CfgSounds
+{
+	sounds[] = {sekach1,sekach2,sekach3,sekach4};
+
+	class sekach1
+	{
+	name = "sekach1";
+	sound[] = {\sounds\sekach1.ogg, 1, 1.0};
+	titles[] = {};
+	};
+
+	class sekach2
+	{
+	name = "sekach2";
+	sound[] = {\sounds\sekach2.ogg, 1, 1.0};
+	titles[] = {};
+	};
+
+	class sekach3
+	{
+	name = "sekach3";
+	sound[] = {\sounds\sekach3.ogg, 1, 1.0};
+	titles[] = {};
+	};
+
+	class sekach4
+	{
+	name = "sekach4";
+	sound[] = {\sounds\sekach4.ogg, 1, 1.0};
+	titles[] = {};
+	};
+
+	class bank_alarm
+	{
+	name = "bank_alarm";
+	sound[] = {\sounds\bankalarm.ogg, 1, 1.0};
+	titles[] = {};
+	};
+	class button_click
+	{
+	name = "button_click";
+	sound[] = {\sounds\button_click.ogg, 1, 1.0};
+	titles[] = {};
+	};
+	class button_hover
+	{
+	name = "button_hover";
+	sound[] = {\sounds\button_hover.ogg, 1, 1.0};
+	titles[] = {};
+	};
+/*	
+	class intro_1
+	{
+	name = "intro_1";
+	sound[] = {\music\intro_carandheli.ogg, 1, 1.0};
+	titles[] = {};
+	};
+	class intro_2
+	{
+	name = "intro_2";
+	sound[] = {\music\intro_harvestred.ogg, 1, 1.0};
+	titles[] = {};
+	};
+	class intro_3
+	{
+	name = "intro_3";
+	sound[] = {\music\intro_insertion.ogg, 1, 1.0};
+	titles[] = {};
+	};
+	class intro_4
+	{
+	name = "intro_4";
+	sound[] = {\music\intro_sharpingknives.ogg, 1, 1.0};
+	titles[] = {};
+	};
+	class intro_5
+	{
+	name = "intro_5";
+	sound[] = {\music\intro_valentine.ogg, 1, 1.0};
+	titles[] = {};
+	};
+*/
+}
