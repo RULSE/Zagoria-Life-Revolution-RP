@@ -6,8 +6,7 @@ Arma 3 Zagoria Life Revolution RP
 &nbsp;&nbsp;&nbsp;&nbsp;@CUP Terrains - Maps	https://steamcommunity.com/sharedfiles/filedetails/?id=583544987<br>
 &nbsp;&nbsp;&nbsp;&nbsp;@Zagoria Life Revolution RP	https://steamcommunity.com/sharedfiles/filedetails/?id=1520735107
 <br><br><br>
-Мод создан по подобию Арма 2 Чернарусь Лайф.<br>
-Почти весь функционал сохранён.<br>
+Мод создан по подобию Арма 2 Чернарусь Лайф. Почти весь функционал сохранён.<br>
 Данный проект - попытка воссоздать то, что было, с огромным количеством новых идей.<br>
 Основные идеи, вокруг которых всё крутится - отсутствие игровой экономико-политической стабильности, <br>
 минимум сложных правил, быстрый фарм и вайпы каждый определённый срок (например, неделя) ввиду быстрого фарма.<br>
