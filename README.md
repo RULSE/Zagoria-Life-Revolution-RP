@@ -1,7 +1,7 @@
 # Zagoria-Life-Revolution-RP
 Arma 3 Zagoria Life Revolution RP
 
-Мод создан по подобию Арма 2 Чернарусь Лайф.
+Мод создан по подобию Арма 2 Чернарусь Лайф.<br>
 Почти весь функционал сохранён.
 	требуемые аддоны:
 		@CUP Terrains - Core	https://steamcommunity.com/workshop/filedetails/?id=583496184
