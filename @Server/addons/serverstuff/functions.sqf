@@ -1,4 +1,3 @@
-
 fnc_getItemAmount = {
 	private ["_amount"];
 	_amount = 0;
@@ -6705,3 +6704,4 @@ fnc_removeRPP = {
 	};
 };
 publicVariable "fnc_removeRPP";
+
