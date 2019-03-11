@@ -6,5 +6,6 @@ Arma 3 Zagoria Life Revolution RP
 	требуемые аддоны:<br>
 		@CUP Terrains - Core	https://steamcommunity.com/workshop/filedetails/?id=583496184<br>
 		@CUP Terrains - Maps	https://steamcommunity.com/sharedfiles/filedetails/?id=583544987<br>
-		@Zagoria Life Revolution RP	https://steamcommunity.com/sharedfiles/filedetails/?id=1520735107 (https://yadi.sk/d/7eZlcbrYOlWXaw)<br>
+		@Zagoria Life Revolution RP	https://steamcommunity.com/sharedfiles/filedetails/?id=1520735107 <br>
+						Mirror: https://yadi.sk/d/7eZlcbrYOlWXaw<br>
 <br>
